@@ -43,8 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     verticalAlign: "middle",
-    margin: theme.typography.title.fontSize / 2,
-    maxHeight: theme.typography.title.fontSize * 2,
+    maxHeight: theme.typography.title.fontSize * 4,
   },
   appBar: {
     paddingRight: theme.jrnlDrawer.close.width,
@@ -52,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    backgroundColor: "#EC1C2114"
   },
   appBarDrawer: {
     margin: theme.spacing(-1, 0, -1, 0),
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
       duration: theme.transitions.duration.leavingScreen,
     }),
     backgroundColor: theme.palette.secondary.second,
-    color: theme.palette.text.primary
+    color: theme.palette.text.second
   },
   
   toolbarDrawerLogout: {
